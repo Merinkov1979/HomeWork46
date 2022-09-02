@@ -66,5 +66,19 @@ public class Main {
             }
         }
         System.out.println();
-    }
-}
+        //task4
+        for ( int i = 0; i < ints.length; i++) {
+            if (ints[i] % 2 == 1) {
+                ints[i]++;
+            }
+                System.out.print(ints[i]);
+            if (i != ints.length - 1) {
+                        System.out.print(", ");
+                    }
+                }
+            }
+
+        }
+
+
+
